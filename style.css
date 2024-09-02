@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#eae0ed;
+    color: #503459;
+}
+
+header {
+    background-color:#896a92;
+    padding: 20px 0;
+    color: #eae0ed;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+.texto{
+    margin-top: 100px;
+}
+.texto p, h3, h2{
+    text-align: center;
+}
+.texto a {
+    text-decoration: none;
+}
+#projetos{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+#projetos h1{
+    text-align: center;
+
+
+}
